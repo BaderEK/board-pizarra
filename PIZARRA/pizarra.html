@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+.drop-shadow {
+margin:2em 20% 4em;
+}
+canvas {
+border-style:solid;
+border-color:#000000;
+border-radius:5px;
+border-width:1px;
+}
+</style>
+    <meta charset="utf-8">
+    <title>Pizarra Material Design</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+
+  <body onload="prepareCanvas();"  style="background-color: #649ed9">
+   <div class="row main-container middle-xs center-xs">
+     <div class="col-md-8 col-sm-10 col-xs-11 col-lg-7">
+       <div class="box">
+         <div class="card animated fadeInUp">
+
+    <article class="body animated fadeInDown">
+      <header class="text-center">
+      <h1 class="color-text oswald title threeD">Tu pizarra Material Design</h1>
+      <header class="main-header">
+        <canvas width="800" height="600" id="canvasPizarra"></canvas>
+       <header class="main2-header">
+        <br><input type="button" id="borrador" value="Borrar Todo" />
+       </header>
+      </header>
+    </header>
+    </article>
+    </div>
+    </div>
+    </div>
+   </div>
+
+    <script src="movimiento_teclas.js"></script>
+    <script src="movimiento_raton.js"></script>
+  </body>
+</html>
